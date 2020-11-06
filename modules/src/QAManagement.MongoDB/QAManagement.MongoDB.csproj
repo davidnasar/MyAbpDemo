@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>QAManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.MongoDB" Version="3.3.1" />
+    <ProjectReference Include="..\QAManagement.Domain\QAManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

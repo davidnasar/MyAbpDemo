@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>QAManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\QAManagement.Application\QAManagement.Application.csproj" />
+    <ProjectReference Include="..\QAManagement.Domain.Tests\QAManagement.Domain.Tests.csproj" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+  </ItemGroup>
+
+</Project>
